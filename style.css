@@ -1,4 +1,23 @@
-header {
-    background-color: #fff3c1;
+*{
+    margin: 0;
+    padding: 5%;
+}
+
+.capa {
+    background-color: #FFF3C1;
     color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.capa-imagem{
+    width: 20%;
+}
+
+.capa-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 36px;
 }
